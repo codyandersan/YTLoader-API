@@ -1,0 +1,20 @@
+{
+  "name": "ytloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.36.4",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "yt-dlp-wrap": "^2.3.11",
+    "ytdl-core": "^4.11.4"
+  }
+}
